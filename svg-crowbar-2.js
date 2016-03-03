@@ -144,7 +144,7 @@
 
   function getSources(doc, emptySvgDeclarationComputed) {
     var svgInfo = [],
-        svgs = doc.querySelectorAll("svg");
+        svgs = doc.querySelectorAll("div>svg");
 
     [].forEach.call(svgs, function (svg) {
 
